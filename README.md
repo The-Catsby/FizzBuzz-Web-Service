@@ -6,15 +6,15 @@ A web-service that calculates and returns FizzBuzz for a range
 - Django 2.2
 
 #### Run the server
+`> python manage.py runserver`
 ``` 
-> python manage.py runserver 
 ...
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 #### Send request
+`> curl "http://127.0.0.1:8000/fizzbuzz?begin=1&end=15"`
 ```
-> curl "http://127.0.0.1:8000/fizzbuzz?begin=1&end=15"
 1 
 2 
 Fizz 
